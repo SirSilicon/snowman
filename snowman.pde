@@ -48,7 +48,8 @@ void draw() {
     fill (green);
     text(Xmessage, 0, 0, width, height/5);
   }
-
+  textFont(XmessageFont,15);
+  text ("stop the flashing by pressing a button", width/5, height/45);
   quitButtonDraw();
 }
 void keyPressed() {
